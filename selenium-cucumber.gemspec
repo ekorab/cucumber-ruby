@@ -15,7 +15,6 @@ Gem::Specification.new do |s|
   s.files       = Dir['lib/**/*']
   s.files      += Dir['bin/*']
   s.files      += Dir['doc/*']
-  s.files      += Dir['features-skeleton/**/*']
   s.files      += Dir['example/**/*']
   s.executables   = 'selenium-cucumber'
   s.require_paths = ['lib']
