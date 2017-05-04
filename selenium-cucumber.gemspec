@@ -9,9 +9,9 @@ Gem::Specification.new do |s|
   s.licenses    = ['MIT']
   s.summary     = 'SELENIUM WEBDRIVER WITH RUBY & CUCUMBER'
   s.description = 'Behavior driven development (BDD) approach to write automation test script to test Web and Android applications.'
-  s.authors     = 'Sameer Sawant'
+  s.authors     = 'Open source + EK'
   s.homepage    = 'http://seleniumcucumber.info/'
-  s.email       = 'sameersawant1992@gmail.com'
+  s.email       = 'ekorab@o2.pl'
   s.files       = Dir['lib/**/*']
   s.files      += Dir['bin/*']
   s.files      += Dir['doc/*']

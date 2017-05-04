@@ -35,3 +35,16 @@ end
 #   Appium::TouchAction.new.long_press(element:element, x:10, y:10, duration:duration).perform()
 # end
 
+Then(/^I should get logged in$/) do
+  verify_username
+end
+
+
+def verify_username
+  ele_user_name = $driver.find_element(:xpath, "/html/body/div[7]/div[3]/div/div[1]/div[4]/div[1]/div[1]/div[1]/div/div[4]/div[1]/a")
+  if ele_user_name.text !="qasage.test@gmail.com"
+    raise "Invalid user name"
+  else
+    puts "User gets logged in successfully"
+  end
+end
